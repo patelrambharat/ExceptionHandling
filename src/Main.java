@@ -88,7 +88,7 @@ public class Main {
 
         public static  boolean checkAge(int age) throws ArithmeticException , UnderAgeException{
             if(age < 18){
-                throw new UnderAgeException("You are underage !!!");
+                throw new UnderAgeException("You are under age !!!");
             }
             else{
                 return true;
